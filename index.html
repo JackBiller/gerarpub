@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gerar Publicações</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<button onclick="buscarFrase();">
+		Buscar Frase
+	</button>
+
+	<div id="workspace">
+		<div id="resultado"></div>
+		<br><br>
+		<center>
+			<canvas id="post" width="1080" height="1080" style="border: solid 1px black;"></canvas>
+		</center>
+	</div>
+	<div id="preview" style="display: none;">
+		<div class="col-md-12 text-center" id="listInsta"></div>
+		<div class="col-md-12" id="listPub"></div>
+	</div>
+	<img class="hidden" src="./fotos/Buda.png" id="fotoTemplate">
+	<script src="./script.js"></script>
+	<!-- <div style="font-family: Rianty; opacity: 0;">teste</div>
+	<div style="font-family: Hack-Regular; opacity: 0;">teste</div>
+	<div style="font-family: Romanica; opacity: 0;">teste</div>
+	<div style="font-family: New-Athletic-M54; opacity: 0;">teste</div>
+	<div style="font-family: zai_AEGMignonTypewriter1924; opacity: 0;">teste</div> -->
+</body>
+</html>

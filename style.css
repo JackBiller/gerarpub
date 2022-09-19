@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Rianty';
+	src: local('Rianty'), url(./fonts/Rianty.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Hack-Regular';
+	src: local('Hack-Regular'), url(./fonts/Hack-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Romanica';
+	src: local('Romanica'), url(./fonts/Romanica.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'New-Athletic-M54';
+	src: local('New-Athletic-M54'), url(./fonts/New-Athletic-M54.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'zai_AEGMignonTypewriter1924';
+	src: local('zai_AEGMignonTypewriter1924'), url(./fonts/zai_AEGMignonTypewriter1924.ttf) format('truetype');
+}
